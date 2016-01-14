@@ -24,10 +24,12 @@
 #define MJRefreshColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 
 // 文字颜色
-#define MJRefreshLabelTextColor MJRefreshColor(90, 90, 90)
+#define MJRefreshLabelTextColor MJRefreshColor(120, 120, 120)
 
 // 字体大小
-#define MJRefreshLabelFont [UIFont boldSystemFontOfSize:14]
+//#define MJRefreshLabelFont [UIFont boldSystemFontOfSize:14]
+#define MJRefreshLabelFont [UIFont fontWithName:@"Helvetica-Light" size:13]
+
 
 // 图片路径
 #define MJRefreshSrcName(file) [@"MJRefresh.bundle" stringByAppendingPathComponent:file]
