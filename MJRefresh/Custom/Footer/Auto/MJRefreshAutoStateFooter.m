@@ -57,7 +57,7 @@
     [super prepare];
     
     // 初始化文字
-    [self setTitle:MJRefreshAutoFooterIdleText forState:MJRefreshStateIdle];
+//    [self setTitle:MJRefreshAutoFooterIdleText forState:MJRefreshStateIdle];
     [self setTitle:MJRefreshAutoFooterRefreshingText forState:MJRefreshStateRefreshing];
     [self setTitle:MJRefreshAutoFooterNoMoreDataText forState:MJRefreshStateNoMoreData];
     
